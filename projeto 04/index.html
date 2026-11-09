@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Minha Lista de Tarefas</title>
+
+    <!-- Conecta o arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Minha Lista de Tarefas</h1>
+
+        <p>Organize suas atividades!</p>
+
+        <!-- Formulário para adicionar tarefas -->
+        <form id="formulario">
+
+            <input
+                type="text"
+                id="tarefa"
+                placeholder="Digite uma tarefa..."
+                required
+            >
+
+            <button type="submit">Adicionar</button>
+
+        </form>
+
+        <!-- Aqui serão exibidas as tarefas -->
+        <ul id="lista"></ul>
+
+        <!-- Mostra quantas tarefas estão pendentes -->
+        <p id="contador">Tarefas pendentes: 0</p>
+
+    </div>
+
+    <!-- Conecta o JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

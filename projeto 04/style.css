@@ -1,0 +1,115 @@
+
+/* Configura toda a página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo da página */
+body {
+    background-color: #151515;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+/* Cartão principal */
+.container {
+    background-color: #242424;
+    padding: 30px;
+    border-radius: 15px;
+
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Texto abaixo do título */
+p {
+    text-align: center;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    gap: 10px;
+}
+
+/* Campo de texto */
+input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+}
+
+/* Botão de adicionar */
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+
+    background-color: #00a86b;
+    color: white;
+
+    cursor: pointer;
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+    background-color: #008f5b;
+}
+
+/* Lista de tarefas */
+ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+/* Cada tarefa */
+li {
+    background-color: #353535;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Tarefa concluída */
+li.concluida span {
+    text-decoration: line-through;
+    color: #888888;
+}
+
+/* Botão de excluir */
+.excluir {
+    background-color: #d93636;
+}
+
+/* Efeito do botão excluir */
+.excluir:hover {
+    background-color: #a92323;
+}
+
+/* Contador */
+#contador {
+    margin-top: 20px;
+}
